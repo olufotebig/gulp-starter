@@ -28,7 +28,7 @@ b.on("log", log.info); // output build logs to terminal
 // i.e. b.transform(coffeeify);
 
 gulp.task("clean", function(done) {
-  return del(["dist"], done());
+  return del(["dist"], done);
 });
 
 // Compile swig templates
